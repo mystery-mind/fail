@@ -12,6 +12,6 @@ function draw(){
     image(video, 0 , 0 ,380, 380);
 }
 function preload(){
-    peter_pan_song=loadSound(music2.mp3);
-    harry_potter_theme_song=loadSound(music1.mp3);
+    peter_pan_song=loadSound("music2.mp3");
+    harry_potter_theme_song=loadSound("music1.mp3");
 }
